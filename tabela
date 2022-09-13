@@ -1,0 +1,13 @@
+using static System.Console;
+
+int inicial, soma;
+
+WriteLine("Digite um Valor: ");
+inicial = Convert.ToInt32(ReadLine());
+
+for (int i = 0; i <= 10; i++)
+{
+    soma = i * inicial;
+    WriteLine($"{i} X {inicial} = {soma}");
+}
+ReadLine();
